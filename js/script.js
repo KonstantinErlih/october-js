@@ -66,3 +66,36 @@ function writeYourGenres() {
 writeYourGenres();
 
 console.log(personalMovieDB);
+
+
+// callback функции
+
+// function call(ar1, callback) {
+//     console.log(ar1);
+// }
+
+// function two() {
+//     console.log('Вторая, но должна сработать первой');
+// }
+
+// call('Первая', two());
+
+// const str = 'Яблоко';
+// for (let symbol of str) {
+//     console.log(symbol);
+// }
+
+// // Клон объекта!!!
+// const q = {
+//     one: 1,
+//     two: 5
+// };
+
+// const qNew = { ...q };
+
+// qNew.one = 8;
+
+// console.log(q);
+// console.log(qNew);
+
+
