@@ -69,15 +69,12 @@ console.log(personalMovieDB);
 
 
 // callback функции
-
 // function call(ar1, callback) {
 //     console.log(ar1);
 // }
-
 // function two() {
 //     console.log('Вторая, но должна сработать первой');
 // }
-
 // call('Первая', two());
 
 // const str = 'Яблоко';
@@ -92,10 +89,27 @@ console.log(personalMovieDB);
 // };
 
 // const qNew = { ...q };
-
 // qNew.one = 8;
-
 // console.log(q);
 // console.log(qNew);
+
+// Прототип solider -> 
+// сущуствующий объект john приобретает свойства прототипа
+// const solider = {
+//     health: 100,
+//     armor: 400
+// };
+// const john = {};
+
+// Object.setPrototypeOf(john, solider);
+
+// Новый объект по прототипу:
+// const solider = {
+//     health: 100,
+//     armor: 400
+// };
+// const john = Object.create(solider);
+
+
 
 
