@@ -17,5 +17,5 @@ const box = document.getElementById('box');
 //     console.log(item);
 // });
 
-const oneHeart = document.querySelector('.heart');
-console.log(oneHeart);
+// const oneHeart = document.querySelector('.heart');
+// console.log(oneHeart);
